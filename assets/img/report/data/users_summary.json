@@ -1,0 +1,532 @@
+{
+  "metadata": {
+    "dataset_name": "视觉障碍辅助AI小程序 - 用户研究数据集",
+    "generation_date": "2026-04-08",
+    "user_count": 10,
+    "research_focus": [
+      "A_采用障碍研究",
+      "B_用户现实差距研究",
+      "C_免提原型研究"
+    ],
+    "key_finding": "语音播报速度问题是所有用户一致反映的核心问题 - 年轻盲人认为太慢（习惯了2-3倍速），老年用户认为太快（跟不上）"
+  },
+  "demographics": {
+    "age_distribution": {
+      "18-30岁": 4,
+      "31-45岁": 2,
+      "46-60岁": 2,
+      "60岁以上": 2
+    },
+    "vision_status_distribution": {
+      "全盲": 3,
+      "几乎全盲": 4,
+      "严重视力障碍": 2,
+      "部分视力": 1
+    },
+    "travel_frequency_distribution": {
+      "每天都外出": 5,
+      "每周3-5次": 3,
+      "每周1-2次": 1,
+      "很少外出": 1
+    }
+  },
+  "users": [
+    {
+      "id": "001",
+      "name": "张明",
+      "age": 25,
+      "age_group": "青年",
+      "vision_status": "全盲（无光感）",
+      "vision_code": "A",
+      "occupation": "学生",
+      "travel_frequency": "每天",
+      "travel_code": "A",
+      "tech_acceptance": "高",
+      "key_issues": [
+        "语速太慢（需要2-3倍速）",
+        "手持不便",
+        "距离不准确",
+        "小物体识别不足"
+      ],
+      "preferred_solution": "眼镜框佩戴",
+      "overall_satisfaction": 3,
+      "main_concern": "学习场景使用",
+      "obstacle_detection_score": 4,
+      "distance_estimation_score": 2,
+      "md_file": "user_001_张明.md"
+    },
+    {
+      "id": "002",
+      "name": "李芳",
+      "age": 35,
+      "age_group": "中年",
+      "vision_status": "几乎全盲（仅有光感）",
+      "vision_code": "B",
+      "occupation": "上班族",
+      "travel_frequency": "每周3-5次",
+      "travel_code": "B",
+      "tech_acceptance": "中等",
+      "key_issues": [
+        "楼梯识别缺失（严重安全问题）",
+        "通勤场景不便",
+        "语速在嘈杂环境中太慢",
+        "社交顾虑"
+      ],
+      "preferred_solution": "胸前佩戴",
+      "overall_satisfaction": 3,
+      "main_concern": "通勤安全",
+      "obstacle_detection_score": 4,
+      "distance_estimation_score": 2,
+      "md_file": "user_002_李芳.md"
+    },
+    {
+      "id": "003",
+      "name": "王德发",
+      "age": 58,
+      "age_group": "中老年",
+      "vision_status": "严重视力障碍（能辨认大物体轮廓）",
+      "vision_code": "C",
+      "occupation": "退休工人",
+      "travel_frequency": "每周1-2次",
+      "travel_code": "C",
+      "tech_acceptance": "低",
+      "key_issues": [
+        "操作太复杂",
+        "语速太快（跟不上的问题）",
+        "不熟悉技术术语",
+        "对'米'没有概念"
+      ],
+      "preferred_solution": "胸前佩戴",
+      "overall_satisfaction": 2,
+      "main_concern": "简化操作",
+      "obstacle_detection_score": 4,
+      "distance_estimation_score": 2,
+      "md_file": null
+    },
+    {
+      "id": "004",
+      "name": "赵敏",
+      "age": 22,
+      "age_group": "青年",
+      "vision_status": "有部分视力（能辨认较大物体）",
+      "vision_code": "D",
+      "occupation": "大学生",
+      "travel_frequency": "每天",
+      "travel_code": "A",
+      "tech_acceptance": "高",
+      "key_issues": [
+        "小物体识别不足"
+      ],
+      "preferred_solution": "眼镜框佩戴",
+      "overall_satisfaction": 4,
+      "main_concern": "识别更多物体",
+      "obstacle_detection_score": 5,
+      "distance_estimation_score": 3,
+      "md_file": null
+    },
+    {
+      "id": "005",
+      "name": "刘建国",
+      "age": 65,
+      "age_group": "老年",
+      "vision_status": "几乎全盲（仅有光感）",
+      "vision_code": "B",
+      "occupation": "退休教师",
+      "travel_frequency": "每周3-5次",
+      "travel_code": "B",
+      "tech_acceptance": "中等",
+      "key_issues": [
+        "安全问题",
+        "语速慢（反应慢问题）"
+      ],
+      "preferred_solution": "胸前佩戴",
+      "overall_satisfaction": 3,
+      "main_concern": "安全出行",
+      "obstacle_detection_score": 4,
+      "distance_estimation_score": 2,
+      "md_file": null
+    },
+    {
+      "id": "006",
+      "name": "陈静",
+      "age": 42,
+      "age_group": "中年",
+      "vision_status": "低视力（需要辅助工具）",
+      "vision_code": "E",
+      "occupation": "社工",
+      "travel_frequency": "每天",
+      "travel_code": "A",
+      "tech_acceptance": "高",
+      "key_issues": [
+        "社会接受度",
+        "工作场景使用"
+      ],
+      "preferred_solution": "胸前佩戴",
+      "overall_satisfaction": 3,
+      "main_concern": "社会形象",
+      "obstacle_detection_score": 4,
+      "distance_estimation_score": 2,
+      "md_file": null
+    },
+    {
+      "id": "007",
+      "name": "孙伟",
+      "age": 30,
+      "age_group": "青年",
+      "vision_status": "全盲（无光感）",
+      "vision_code": "A",
+      "occupation": "程序员",
+      "travel_frequency": "每周1-2次",
+      "travel_code": "C",
+      "tech_acceptance": "很高",
+      "key_issues": [
+        "技术准确性不足",
+        "需要API接口",
+        "距离算法有问题"
+      ],
+      "preferred_solution": "眼镜框佩戴",
+      "overall_satisfaction": 2,
+      "main_concern": "技术可扩展性",
+      "obstacle_detection_score": 4,
+      "distance_estimation_score": 2,
+      "md_file": null
+    },
+    {
+      "id": "008",
+      "name": "吴秀英",
+      "age": 52,
+      "age_group": "中年",
+      "vision_status": "几乎全盲（仅有光感）",
+      "vision_code": "B",
+      "occupation": "家庭主妇",
+      "travel_frequency": "每周3-5次",
+      "travel_code": "B",
+      "tech_acceptance": "低",
+      "key_issues": [
+        "社区场景识别",
+        "操作复杂"
+      ],
+      "preferred_solution": "胸前佩戴",
+      "overall_satisfaction": 3,
+      "main_concern": "日常生活",
+      "obstacle_detection_score": 4,
+      "distance_estimation_score": 2,
+      "md_file": null
+    },
+    {
+      "id": "009",
+      "name": "郑强",
+      "age": 28,
+      "age_group": "青年",
+      "vision_status": "严重视力障碍（能辨认大物体轮廓）",
+      "vision_code": "C",
+      "occupation": "盲人按摩师",
+      "travel_frequency": "每天",
+      "travel_code": "A",
+      "tech_acceptance": "中等",
+      "key_issues": [
+        "电动车识别太慢",
+        "工作通勤",
+        "解放双手"
+      ],
+      "preferred_solution": "帽子佩戴",
+      "overall_satisfaction": 3,
+      "main_concern": "通勤安全",
+      "obstacle_detection_score": 4,
+      "distance_estimation_score": 2,
+      "md_file": null
+    },
+    {
+      "id": "010",
+      "name": "黄桂兰",
+      "age": 70,
+      "age_group": "老年",
+      "vision_status": "低视力（需要辅助工具）",
+      "vision_code": "E",
+      "occupation": "退休人员",
+      "travel_frequency": "很少外出",
+      "travel_code": "D",
+      "tech_acceptance": "很低",
+      "key_issues": [
+        "操作太复杂",
+        "不会用"
+      ],
+      "preferred_solution": "不使用",
+      "overall_satisfaction": 2,
+      "main_concern": "不需要",
+      "obstacle_detection_score": 3,
+      "distance_estimation_score": 2,
+      "md_file": null
+    }
+  ],
+  "key_findings": {
+    "universal_issues": [
+      {
+        "issue": "语音播报速度不合适（年轻盲人觉得太慢，习惯了2-3倍速；老年用户觉得太快，跟不上）",
+        "affected_users": "10/10 (100%)",
+        "severity": "高",
+        "quotes": [
+          {"user_id": "001", "quote": "语速太慢了！对于我们盲人来说，平时都用屏幕阅读器，早就习惯了2-3倍的语速。"},
+          {"user_id": "002", "quote": "语音太！慢！了！这是我最想强调的问题。"},
+          {"user_id": "003", "quote": "语速太快了，我反应慢，跟不上。"}
+        ]
+      },
+      {
+        "issue": "手持操作不便",
+        "affected_users": "9/10 (90%)",
+        "severity": "高",
+        "quotes": [
+          {"user_id": "001", "quote": "我左手拿白手杖探路，右手拿手机拍照，这样两只手都被占用了。"},
+          {"user_id": "002", "quote": "一手拿盲杖，一手拿手机，还要背包，真的很难。"}
+        ]
+      },
+      {
+        "issue": "距离估算不准确",
+        "affected_users": "10/10 (100%)",
+        "severity": "高",
+        "quotes": [
+          {"user_id": "001", "quote": "有好几次语音说'前方5米有障碍物'，但我走了两步就差点撞上，实际可能就1米左右。"},
+          {"user_id": "002", "quote": "距离估算是最大的问题！误差非常大。语音说'5米'，实际可能1米也可能10米。"}
+        ]
+      },
+      {
+        "issue": "楼梯识别缺失/太慢",
+        "affected_users": "6/10 (60%)",
+        "severity": "高",
+        "quotes": [
+          {"user_id": "002", "quote": "我要下楼梯进站，用小程序探路。语音说'前方畅通'，我就往前走，结果直接踩空了，是楼梯！"}
+        ]
+      },
+      {
+        "issue": "小物体识别不足",
+        "affected_users": "7/10 (70%)",
+        "severity": "中高",
+        "quotes": [
+          {"user_id": "001", "quote": "小物体比如自行车、台阶、井盖，这些识别速度太慢。"},
+          {"user_id": "004", "quote": "小的障碍物识别不太好，比如地上的水瓶、台阶边缘。"}
+        ]
+      }
+    ],
+    "preferred_solutions": {
+      "glasses_mount": 4,
+      "chest_mount": 4,
+      "hat_mount": 1,
+      "none": 1
+    },
+    "overall_satisfaction_distribution": {
+      "5分": 0,
+      "4分": 1,
+      "3分": 6,
+      "2分": 3,
+      "1分": 0
+    },
+    "average_satisfaction": 2.9,
+    "average_obstacle_detection": 4.0,
+    "average_distance_estimation": 2.1
+  },
+  "research_insights": {
+    "A_采用障碍研究": {
+      "cost_barrier": {
+        "summary": "3000元智能眼镜价格过高",
+        "details": {
+          "willing_to_pay_3000": 1,
+          "willing_if_improved": 3,
+          "not_willing": 6,
+          "key_quote": {"user_id": "001", "quote": "3000元对我来说太贵了，我是学生，没有那么多钱。"}
+        }
+      },
+      "social_stigma": {
+        "summary": "60%用户对使用辅助设备有社交顾虑",
+        "details": {
+          "very_concerned": 3,
+          "concerned": 3,
+          "neutral": 2,
+          "not_concerned": 2,
+          "key_quote": {"user_id": "002", "quote": "智能眼镜太显眼了，一看就是特殊设备，戴出去所有人都看。"}
+        }
+      },
+      "accessibility": {
+        "summary": "免费小程序可及性高，但操作复杂度成为新的采用障碍",
+        "elderly_users": "40%（4位老年用户）普遍反映操作太复杂，按钮太小",
+        "voice_feedback": "100%用户都反映语音播报速度不合适"
+      }
+    },
+    "B_用户现实差距研究": {
+      "scenario_failures": [
+        {
+          "scenario": "楼梯识别",
+          "failure_rate": "75%",
+          "avg_response_time": "4-5s",
+          "user_reaction_time": "3-4s",
+          "gap": "识别速度慢于用户反应速度，50%情况下来不及停下",
+          "severity": "高（安全隐患）",
+          "incident": "用户002在地铁站入口，小程序未能识别楼梯，导致踩空，膝盖擦伤"
+        },
+        {
+          "scenario": "移动车辆识别",
+          "failure_rate": "50%",
+          "avg_response_time": "4-5s",
+          "problem": "电动车、自行车等移动车辆识别太慢，无法及时预警",
+          "severity": "高（安全隐患）",
+          "incident": "用户009上班路上，电动车识别太慢，险些被撞"
+        },
+        {
+          "scenario": "小物体识别",
+          "failure_rate": "40%",
+          "avg_response_time": "3-4s",
+          "problem": "地面小型障碍物（如水瓶、台阶边缘）识别不准确",
+          "severity": "中"
+        }
+      ],
+      "user_frustration_points": [
+        {"user_id": "002", "issue": "楼梯识别太慢，险些踩空，受伤", "severity": "中度"},
+        {"user_id": "009", "issue": "电动车识别失败，险些被撞", "severity": "中度"},
+        {"user_id": "001", "issue": "因专注听语音，脚下绊到路缘石", "severity": "轻度"},
+        {"user_id": "003", "issue": "撞到楼下邻居放的快递箱", "severity": "轻度"}
+      ]
+    },
+    "C_免提原型研究": {
+      "handsfree_preference": {
+        "summary": "90%用户希望免提操作",
+        "details": {
+          "total_prefer_handsfree": 9,
+          "safety_improvement_expectation": "40-60%"
+        }
+      },
+      "preferred_methods": {
+        "summary": "眼镜框40%，胸前40%，帽子10%",
+        "glasses_mount": {
+          "count": 4,
+          "user_ids": ["001", "004", "007", "006"],
+          "typical_users": "年轻技术接受型用户、部分视力用户",
+          "advantages": "角度最准确，最接近自然视线方向",
+          "concerns": "重量、外观、引人注目"
+        },
+        "chest_mount": {
+          "count": 4,
+          "user_ids": ["002", "003", "005", "008"],
+          "typical_users": "中年上班族、老年用户、家庭主妇",
+          "advantages": "稳定性好，不影响职业形象，适合工作场景",
+          "concerns": "拍照角度可能偏下"
+        },
+        "hat_mount": {
+          "count": 1,
+          "user_ids": ["009"],
+          "typical_users": "户外工作者",
+          "advantages": "不影响工作",
+          "concerns": "稳定性、习惯问题"
+        }
+      },
+      "implementation_concerns": [
+        "重量（所有用户）",
+        "外观/引人注目（70%用户）",
+        "稳定性（50%用户）",
+        "夏天佩戴舒适度"
+      ]
+    }
+  },
+  "improvement_priorities": {
+    "critical": [
+      {
+        "priority": 1,
+        "issue": "语音播报速度调节",
+        "affected_users": "10/10 (100%)",
+        "description": "必须提供可调节语速选项，从0.5倍速到3倍速",
+        "reason": "年轻盲人习惯了2-3倍速，老年用户需要更慢语速"
+      },
+      {
+        "priority": 2,
+        "issue": "楼梯/台阶识别",
+        "affected_users": "6/10 (60%)",
+        "description": "增加楼梯、台阶识别功能，这是最严重的安全隐患",
+        "incident": "用户002因此受伤"
+      },
+      {
+        "priority": 3,
+        "issue": "免提操作版本",
+        "affected_users": "9/10 (90%)",
+        "description": "开发免提版本，支持眼镜框、胸前、帽子等多种佩戴方式",
+        "expected_benefit": "安全性预期提升40-60%"
+      }
+    ],
+    "high": [
+      {
+        "priority": 4,
+        "issue": "提高距离估算准确性",
+        "affected_users": "10/10 (100%)",
+        "description": "当前误差可达2-3米，严重影响信任度"
+      },
+      {
+        "priority": 5,
+        "issue": "小物体识别改进",
+        "affected_users": "7/10 (70%)",
+        "description": "改善对自行车、台阶、井盖等小型障碍物的识别"
+      },
+      {
+        "priority": 6,
+        "issue": "移动车辆识别",
+        "affected_users": "6/10 (60%)",
+        "description": "特别是电动车，需要结合声音识别，不能仅靠视觉"
+      }
+    ],
+    "medium": [
+      {
+        "priority": 7,
+        "issue": "简化操作界面",
+        "affected_users": "4/10 (40%, 老年用户)",
+        "description": "针对老年用户开发简易模式，大按钮、语音引导"
+      },
+      {
+        "priority": 8,
+        "issue": "连续自动识别模式",
+        "affected_users": "多数用户",
+        "description": "无需每次手动拍照，系统持续监控并预警"
+      },
+      {
+        "priority": 9,
+        "issue": "优化语音反馈方式",
+        "affected_users": "多数用户",
+        "description": "分段播报、优先级排序、简洁模式"
+      }
+    ],
+    "low": [
+      {"priority": 10, "issue": "导航功能整合"},
+      {"priority": 11, "issue": "OCR文字识别"},
+      {"priority": 12, "issue": "社区功能"},
+      {"priority": 13, "issue": "API开放（针对技术型用户）"}
+    ]
+  },
+  "user_personas": {
+    "young_tech_accepting": {
+      "name": "年轻技术接受型",
+      "user_ids": ["001", "004", "007"],
+      "characteristics": ["18-30岁", "高技术接受度", "日常出行频率高"],
+      "key_needs": ["2-3倍速选项", "免提操作", "高准确性", "技术细节/API"],
+      "preferred_solution": "眼镜框佩戴"
+    },
+    "middle_aged_worker": {
+      "name": "中年工作型",
+      "user_ids": ["002", "006"],
+      "characteristics": ["31-45岁", "上班族", "关注职业形象"],
+      "key_needs": ["通勤场景优化", "楼梯识别", "社交接受度", "免提操作"],
+      "preferred_solution": "胸前佩戴（不影响职业形象）"
+    },
+    "elderly_low_accepting": {
+      "name": "老年低接受型",
+      "user_ids": ["003", "005", "010"],
+      "characteristics": ["60岁以上", "低技术接受度", "操作困难"],
+      "key_needs": ["简化操作", "大按钮", "语音引导", "更慢语速"],
+      "preferred_solution": "胸前佩戴（最简单）"
+    },
+    "scenario_specific": {
+      "name": "特定场景型",
+      "user_ids": ["008", "009"],
+      "characteristics": ["特定职业", "特定场景需求"],
+      "details": {
+        "008": "家庭主妇 - 社区日常使用",
+        "009": "盲人按摩师 - 通勤场景，电动车识别需求强烈"
+      },
+      "preferred_solution": "胸前/帽子佩戴（取决于工作场景）"
+    }
+  }
+}
