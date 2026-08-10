@@ -234,14 +234,10 @@
       </div>
 
       <!-- 2. CMU 15-112 Accessibility Game -->
-      <div class="col s12 m6">
+      <div class="col s12 m12">
         <div class="card-panel">
           <div class="activity-photo-placeholder">
-            <button type="button" class="view-photo-btn">see more</button>
-            <div class="activity-photo-overlay">
-              <button type="button" class="close-photo-overlay" aria-label="关闭照片">×</button>
-              <img src="/assets/img/term-showcase.jpg" alt="CMU 15-112 accessibility game photo" />
-            </div>
+            <img src="/assets/img/term-showcase.jpg" alt="CMU 15-112 accessibility game photo" />
           </div>
           <span class="card-title teal-text">CMU 15-112 Term Project — Sole Developer & Designer</span>
           <p><strong>Result:</strong> 1st Place (Out of all term projects; Score > 100/100)</p>
@@ -278,14 +274,10 @@
       </div>
 
       <!-- 6. VEX Robotics Championship -->
-      <div class="col s12 m6">
+      <div class="col s12 m12">
         <div class="card-panel">
           <div class="activity-photo-placeholder">
-            <button type="button" class="view-photo-btn">see more</button>
-            <div class="activity-photo-overlay">
-              <button type="button" class="close-photo-overlay" aria-label="关闭照片">×</button>
-              <img src="/assets/img/vex-act.jpg" alt="VEX Robotics photo" />
-            </div>
+            <img src="/assets/img/vex-act.jpg" alt="VEX Robotics photo" />
           </div>
           <span class="card-title teal-text">VEX Robotics Varsity Team — Lead Programmer & Outreach</span>
           <p><strong>Result:</strong> World Championship Division Finalist (Top 4)</p>
@@ -302,14 +294,10 @@
       </div>
 
       <!-- 8. RedChair-PGH & Assemble Pittsburgh -->
-      <div class="col s12 m6">
+      <div class="col s12 m12">
         <div class="card-panel">
           <div class="activity-photo-placeholder">
-            <button type="button" class="view-photo-btn">see more</button>
-            <div class="activity-photo-overlay">
-              <button type="button" class="close-photo-overlay" aria-label="关闭照片">×</button>
-              <img src="/assets/img/bsides-act.jpg" alt="RedChair-PGH photo" />
-            </div>
+            <img src="/assets/img/bsides-act.jpg" alt="RedChair-PGH photo" />
           </div>
           <span class="card-title teal-text">Tech Outreach & Diversity — Volunteer Expert</span>
           <p>Recommended by CMU IS Director Julia Poepping to represent <strong>RedChair-PGH</strong> at the BSides Pittsburgh Conference to empower women in tech. Nominated to <strong>Assemble Pittsburgh</strong> as a guest expert to design hands-on youth AI/STEAM workshop curricula.</p>
@@ -325,14 +313,10 @@
       </div>
 
       <!-- 10. Female Soccer Community -->
-      <div class="col s12 m6">
+      <div class="col s12 m12">
         <div class="card-panel">
-          <div class="activity-photo-placeholder" style="height: 220px;">
-            <button type="button" class="view-photo-btn">see more</button>
-            <div class="activity-photo-overlay">
-              <button type="button" class="close-photo-overlay" aria-label="关闭照片">×</button>
-              <img src="/assets/img/soccer.jpg" alt="Female soccer community photo" />
-            </div>
+          <div class="activity-photo-placeholder">
+            <img src="/assets/img/soccer.jpg" alt="Female soccer community photo" />
           </div>
           <span class="card-title teal-text">BNDS Female Soccer Community — Founder & Primary Strategist</span>
           <p>Established a campus female soccer community to break sports barriers through regular training and team building. Served as starting player and strategist in intra-league tournaments, organizing friendly inter-gender matches.</p>
@@ -340,14 +324,10 @@
       </div>
 
       <!-- 11. Guqin Senior Center Performances -->
-      <div class="col s12 m6">
+      <div class="col s12 m12">
         <div class="card-panel">
-          <div class="activity-photo-placeholder" style="height: 220px;">
-            <button type="button" class="view-photo-btn">see more</button>
-            <div class="activity-photo-overlay">
-              <button type="button" class="close-photo-overlay" aria-label="关闭照片">×</button>
-              <img src="/assets/img/guqin-act.jpeg" alt="Guqin performance photo" />
-            </div>
+          <div class="activity-photo-placeholder">
+            <img src="/assets/img/guqin-act.jpeg" alt="Guqin performance photo" />
           </div>
           <span class="card-title teal-text">Community Senior Center — Guqin Volunteer Performer</span>
           <p>Brought traditional Chinese zither (Guqin) music to local senior centers, performing custom repertoire for 55+ elderly residents based on their requested melodies. Assisted with post-performance community center upkeep.</p>
@@ -626,14 +606,6 @@
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       })
 
-      // Activity photo overlay toggle
-      $(".view-photo-btn").on("click", function () {
-        $(this).siblings(".activity-photo-overlay").addClass("visible")
-      })
-
-      $(".close-photo-overlay").on("click", function () {
-        $(this).closest(".activity-photo-overlay").removeClass("visible")
-      })
     })
   </script>
 </body>
