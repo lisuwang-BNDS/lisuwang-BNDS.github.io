@@ -150,12 +150,12 @@
 <h3 id="32-testing-protocols"><strong>3.2 Testing Protocols</strong> </h3>
 <p>Testing involved real-world navigation tasks (indoor and outdoor) where users operated Sonar Vision on a smartphone while using traditional mobility aids (white canes). Performance was evaluated using subjective measures including the NASA Task Load Index (NASA-TLX) for mental workload and the Situational Awareness Rating Technique (SART).[8]</p>
 <p><strong>Figure 1. Sonar Vision main interface showing simplified accessibility design</strong></p>
-<p><img src="weixin1.jpg" alt="alt text"> <img src="weixin2.jpg" alt="alt text"><br>
+<p><img src="/assets/img/report/weixin1.jpg" alt="alt text"> <img src="/assets/img/report/weixin2.jpg" alt="alt text"><br>
 <strong>On-screen text (Chinese):</strong> “树干在正前方,距离约10米.”<br>
 <strong>Translation (English):</strong> “The tree trunk is directly ahead, approximately 10 meters distant.”</p>
 <p><strong>Video 1. Real-world usability testing session (duration: 45 seconds)</strong></p>
 <video width="100%" controls="">
-  <source src="Video_App_mosaic.mp4" type="video/mp4">
+  <source src="/assets/file/video/Video_App_mosaic.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <p><em>Participant navigating outdoor environment using Sonar Vision—showing camera activation, 3-4 second processing wait, voice feedback output ("障碍物是一辆手推车，位于正前方约10米处" / "The obstacle is a handcart, located approximately 10 meters directly ahead"), and user's navigation decision based on audio prompt.</em></p>
@@ -168,7 +168,7 @@
 <li><strong>Elderly Novice-Users:</strong> Senior users, such as User 003 and User 005, experience issues with response latency (the delay between capturing an image and receiving feedback) and find the terminology conceptually dense or difficult to understand.</li>
 </ul>
 <p><strong>Original Data (Chinese):</strong><br>
-<img src="image1.png" alt="alt text"><br>
+<img src="/assets/img/report/image1.png" alt="alt text"><br>
 “语音能听清，但是语速太慢了！对于我们盲人来说，平时都用屏幕阅读器，早就习惯了2-3倍的语速。” (User 001)<br>
 <strong>Translation (English):</strong> “I can hear the voice clearly, but the speech rate is too slow! For blind people like us, we're used to screen readers at 2-3x speed.”</p>
 <h3 id="42-safety-critical-spatial-estimation-errors"><strong>4.2 Safety-Critical Spatial Estimation Errors</strong> </h3>
@@ -178,7 +178,7 @@
 <li><strong>The Depth Perception Ceiling:</strong> Research confirms that VLMs without depth-channel inputs [21] struggle with spatial relationships, often leading to navigation decisions that result in collisions.[21]</li>
 </ul>
 <p><strong>Original Data (Chinese):</strong><br>
-<img src="image2.png" alt="alt text"><br>
+<img src="/assets/img/report/image2.png" alt="alt text"><br>
 “主要问题是距离估算不准确，语音说'前方5米有障碍物'，但我走了两步就差点撞上，实际可能就1米左右。” (User 002)<br>
 <strong>Translation (English):</strong> “The main issue is inaccurate distance estimation. The voice says 'obstacle 5 meters ahead,' but I almost bumped into it after just two steps — it was probably only about 1 meter away.”</p>
 <h3 id="43-hazard-recognition-and-recognition-latency"><strong>4.3 Hazard Recognition and Recognition Latency</strong> </h3>
@@ -188,12 +188,12 @@
 <li><strong>The "Parcel Box" Incident:</strong> User 003 suffered a knee injury because the camera missed a low-lying object that the AI failed to categorize as an obstacle. This is a common failure point for current computer vision models, which excel at identifying "cars" but miss "manhole covers" or "bricks".</li>
 </ul>
 <p><strong>Original Data (Chinese):</strong><br>
-<img src="image3.png" alt="alt text"><br>
+<img src="/assets/img/report/image3.png" alt="alt text"><br>
 “语音说'前方畅通'，我就往前走，结果直接踩空了，是楼梯……不然就滚下去了。” (User 002)<br>
 <strong>Translation (English):</strong> “The voice said 'the front is clear', so I walked forward, but I stepped into thin air—it was stairs... otherwise I would have rolled down.”</p>
 <h3 id="44-ergonomic-and-psychosocial-constraints"><strong>4.4 Ergonomic and Psychosocial Constraints</strong> </h3>
 <p><strong>Figure 2. Current usage scenario showing the hands-free challenge</strong></p>
-<p><img src="Phone_1.jpg" alt="alt text"> <img src="Phone_2.jpg" alt="alt text"></p>
+<p><img src="/assets/img/report/Phone_1.jpg" alt="alt text"> <img src="/assets/img/report/Phone_2.jpg" alt="alt text"></p>
 <p><em>Visually impaired user holding smartphone in left hand while using white cane with right hand, walking on sidewalk—illustrating the safety limitation of requiring both hands for operation.</em></p>
 <p>The physical act of holding a smartphone while navigating is a primary barrier to adoption.</p>
 <ul>
@@ -201,7 +201,7 @@
 <li><strong>Social Stigma:</strong> Users are highly sensitive to "looking special" or "pitiful." Professional users like User 006 feel that using smart glasses in the workplace makes them look "like they are monitoring others," which damages social trust.</li>
 </ul>
 <p><strong>Original Data (Chinese):</strong><br>
-<img src="image4.png" alt="alt text"><br>
+<img src="/assets/img/report/image4.png" alt="alt text"><br>
 “手持不方便，特别是工作的时候需要和居民交流，拿着手机拍照显得不专业。还有一手拿盲杖一手拿手机，没法和居民握手。” (User 006)<br>
 <strong>Translation (English):</strong> “Holding a phone is inconvenient, especially when I need to communicate with residents at work. Taking photos with a phone looks unprofessional. Also, with a cane in one hand and a phone in the other, I can't shake hands with residents.”</p>
 <h3 id="45-continuous-automatic-recognition-requirement"><strong>4.5 Continuous Automatic Recognition Requirement</strong> </h3>
@@ -214,7 +214,7 @@
 </ul>
 <p>This finding is directly connected to the “Hands-Free Necessity” issue (90% of users prefer hands-free solutions). Users want a system that operates continuously in the background, providing proactive alerts rather than requiring reactive manual photo capture. The current “tap-to-identify” workflow contradicts the fundamental need for continuous environmental monitoring in real-world navigation scenarios.</p>
 <p><strong>Original Data (Chinese):</strong><br>
-<img src="image5.png" alt="alt text"><br>
+<img src="/assets/img/report/image5.png" alt="alt text"><br>
 “连续自动识别最实用！这样我就不用每次都拍照，系统一直帮我看着，有危险就提醒，这样就真的能帮助我了。” (User 002)<br>
 <strong>Translation (English):</strong> “Continuous automatic recognition is the most practical! I don't need to take photos every time. The system keeps watching for me and alerts when there's danger—this would really help me.”</p>
 <h2 id="5-discussion-optimization-analysis-and-roadmap"><strong>5. Discussion: Optimization Analysis and Roadmap</strong> </h2>
@@ -244,7 +244,7 @@
 </ol>
 <h3 id="53-hardware-integration-and-wearable-prototypes"><strong>5.3 Hardware Integration and Wearable Prototypes</strong> </h3>
 <p><strong>Figure 3. Proposed chest-mount configuration for hands-free operation</strong></p>
-<p><img src="With_Wirepro1.jpg" alt="alt text"> <img src="WithWirepro2.jpg" alt="alt text"></p>
+<p><img src="/assets/img/report/With_Wirepro1.jpg" alt="alt text"> <img src="/assets/img/report/WithWirePro2.jpg" alt="alt text"></p>
 <p><em>Chest-mount configuration that enables users to operate hands-free.</em></p>
 <p>The "software-first" model does not mean "software-only." Strategic hardware integration can resolve the handheld dilemma.[2]</p>
 <ul>
