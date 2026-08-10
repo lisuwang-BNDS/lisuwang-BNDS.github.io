@@ -134,11 +134,12 @@
   display: block;
 }
 .activity-photo-placeholder.activity-photo-placeholder--side {
-  flex: 0 0 320px;
-  width: 320px;
-  min-width: 220px;
-  max-width: 38%;
+  flex: 0 0 340px;
+  width: 340px;
+  min-width: 240px;
+  max-width: 42%;
   height: auto;
+  overflow: hidden;
 }
 .activity-card {
   display: flex;
@@ -151,7 +152,8 @@
 }
 .activity-card--horizontal {
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
+  gap: 24px;
 }
 .activity-card--horizontal .card-title {
   margin-bottom: 0.75rem;
@@ -162,11 +164,14 @@
 .activity-card--horizontal .activity-photo-placeholder {
   margin-bottom: 0;
   height: auto;
+  max-height: 520px;
+  flex-shrink: 0;
 }
 .activity-card--horizontal .activity-photo-placeholder img {
-  height: 100%;
-  min-height: 240px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
 }
 .activity-card .card-title {
   display: block;
