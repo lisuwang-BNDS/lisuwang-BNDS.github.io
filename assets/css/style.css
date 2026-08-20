@@ -141,6 +141,15 @@
   height: auto;
   overflow: hidden;
 }
+#experience .card-panel {
+  min-height: 520px;
+  overflow: visible;
+}
+#experience .card-panel:not(:has(.activity-photo-placeholder)) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .activity-card {
   display: flex;
   flex-direction: column;
@@ -184,6 +193,10 @@
     width: 100%;
     min-width: auto;
     max-width: none;
+  }
+  #experience .card-panel {
+    min-height: 0;
+    height: auto;
   }
 }
 .activity-photo-placeholder .view-photo-btn,
