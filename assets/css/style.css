@@ -148,7 +148,7 @@
 #experience .card-panel:not(:has(.activity-photo-placeholder)) {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .activity-card {
   display: flex;
